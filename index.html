@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--[if lte IE 8]
+	<script src="lib/html5shiv/respond.min.js"></script>
+<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title> Room Inc</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="lib/magnific-popup/magnific-popup.css">
+	
+	<link rel="stylesheet" href="lib/bootstrap/bootstrap-grid.min.css"/>
+	<link rel="stylesheet" href="lib/datatimepicker/jquery.datetimepicker.css"/>
+	<link rel="stylesheet" href="lib/slick-master/slick-master/slick/slick.css">
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/skins_themes/cyan.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="logo">
+						<a href="#" class="onclick_menu"><img src="img/logo.png" alt="alt"></a>
+					</div>
+					<nav class="main_nav clearfix">
+						<ul>
+							<li class="active"><a href="#">start</a></li>
+							<li><a href="#">facilities</a></li>
+							<li><a href="#">restaurant</a></li>
+							<li><a href="#">conference</a></li>
+							<li><a href="#">bookings</a></li>
+							<li><a href="#">contact us</a></li>
+						</ul>
+					</nav>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="banner" id="banner">
+		<div class="slide_show">
+			<div><img src="img/picture_3.jpg" alt="alt"></div>
+			<div><img src="img/picture_4.jpg" alt="alt"></div>
+			<div><img src="img/picture_5.jpg" alt="alt"></div>
+		</div>
+	</section>
+	<section class="order" id="order">
+		<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<form action="index.php" class="main_form clearfix">
+							<div class="col-md-3 col-sm-6">
+								<div class="date-group">
+									<label for="datetimepicker1">Arrival1</label>
+									<input type="text" id="datetimepicker1" class="datetimepicker" name="arrival" placeholder="08/07/2015">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="date-group">
+									<label for="datetimepicker2">Arrival2</label>
+									<input type="text" id="datetimepicker2" class="datetimepicker" name="arrival" placeholder="08/07/2015">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="date-group">
+									<h3>room type</h3>
+									<div class="drop-down-type-list">
+										<div class="room_type_lists">
+											<span id="room_choose"></span>
+										</div>
+										<ul class="room_type">
+											<li>-3-x комнатная квартира</li>
+											<li>-2-x комнатная квартира</li>
+											<li>-1-x комнатная квартира</li>
+											<li>0-x комнатная квартира</li>
+											<li>1-x комнатная квартира</li>
+											<li>2-х комнатная квартира</li>
+											<li>3-x комнатная квартира</li>
+											<li>4-x комнатная квартира</li>
+											<li>5 комнатная квартира</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">	
+								<div class="date-group">
+									<label for="prices">&nbsp;</label>
+									<input type="submit" name="prices" id="prices" value="View Prices">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section class="slider" id="slider">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="head_text_block">
+						<h1>book a package</h1>
+						<p>Sed euismod sem id consequat rutrum. Ut convallis lorem a orci mollis, eu vulputate libero aliquet. Praesent egestas nisi sed purus tincidunt faucibus. Aliquam lobortis orci lacus, sed faucibus augue dapibus vitae. Ut vitae mi sapien. Phasellus a eros justo. Curabitur odio massa, tincidunt nec nibh sit amet</p>
+					</div>
+					<div class="slider_container">	
+						<div class="slick">
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+						</div>
+						<button class="button prev-arrow">prew arrow</button>
+						<button class="button next-arrow">next-arrow</button>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="type_room" id="rooms">
+		<div class="container">
+			<div class="row">
+				<div class="head_text_block">
+						<h1>book a package</h1>
+				</div>		
+				<div class="col-md-4 col-sm-6 rooms_descr">
+					<figure>
+						<a href="" class="open_popup"><img src="img/Your-Pic-Here.jpg" alt="alt"></a>
+						<figcaption>
+							<div class="img_head_descr">Standart Double Room</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum consequatur, eum, sapiente vero perferendis.</p>
+							<div class="included">
+								<i class="fa fa-subway"></i>
+								<i class="fa fa-bomb"></i>
+								<i class="fa fa-venus-mars"></i>
+								<i class="fa fa-bed"></i>
+								<i class="fa fa-coffee"></i>
+								<i class="fa fa-wifi"></i>
+							</div>
+						</figcaption>
+					</figure>
+					<div class="hidden">
+						<div class="modal-box-content">
+							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+							<div class="room">
+								<h3>Заголовок работы</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In totam voluptatibus consectetur et odit provident corrupti, expedita nesciunt aperiam officia! Quis recusandae iusto earum ratione odio rerum, quo sed facere.</p>
+								<img src="img/Your-Pic-Here.jpg" alt="alt">
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-md-4 col-sm-6 rooms_descr">
+					<figure >
+						<a href="" class="open_popup"><img src="img/Your-Pic-Here.jpg" alt="alt"></a>
+						<figcaption>
+							<div class="img_head_descr">Standart Double Room</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum consequatur, eum, sapiente vero perferendis.</p>
+							<div class="included">
+								<i class="fa fa-subway"></i>
+								<i class="fa fa-bomb"></i>
+								<i class="fa fa-venus-mars"></i>
+								<i class="fa fa-bed"></i>
+								<i class="fa fa-coffee"></i>
+								<i class="fa fa-wifi"></i>
+							</div>
+						</figcaption>
+					</figure>
+					<div class="hidden">
+						<div class="modal-box-content">
+							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+							<div class="room">
+								<h3>Заголовок работы</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In totam voluptatibus consectetur et odit provident corrupti, expedita nesciunt aperiam officia! Quis recusandae iusto earum ratione odio rerum, quo sed facere.</p>
+								<img src="img/Your-Pic-Here.jpg" alt="alt">
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-md-4 col-sm-6 rooms_descr">
+					<figure >
+						<a href="" class="open_popup"><img src="img/Your-Pic-Here.jpg" alt="alt"></a>
+						<figcaption>
+							<div class="img_head_descr">Standart Double Room</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum consequatur, eum, sapiente vero perferendis.</p>
+							<div class="included">
+								<i class="fa fa-subway"></i>
+								<i class="fa fa-bomb"></i>
+								<i class="fa fa-venus-mars"></i>
+								<i class="fa fa-bed"></i>
+								<i class="fa fa-coffee"></i>
+								<i class="fa fa-wifi"></i>
+							</div>
+						</figcaption>
+					</figure>
+					<div class="hidden">
+						<div class="modal-box-content">
+							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+							<div class="room">
+								<h3>Заголовок работы</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In totam voluptatibus consectetur et odit provident corrupti, expedita nesciunt aperiam officia! Quis recusandae iusto earum ratione odio rerum, quo sed facere.</p>
+								<img src="img/Your-Pic-Here.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 rooms_descr">
+					<figure >
+						<a href="" class="open_popup"><img src="img/Your-Pic-Here.jpg" alt="alt"></a>
+						<figcaption>
+							<div class="img_head_descr">Standart Double Room</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum consequatur, eum, sapiente vero perferendis.</p>
+							<div class="included">
+								<i class="fa fa-subway"></i>
+								<i class="fa fa-bomb"></i>
+								<i class="fa fa-venus-mars"></i>
+								<i class="fa fa-bed"></i>
+								<i class="fa fa-coffee"></i>
+								<i class="fa fa-wifi"></i>
+							</div>
+						</figcaption>
+					</figure>
+					<div class="hidden">
+						<div class="modal-box-content">
+							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+							<div class="room">
+								<h3>Заголовок работы</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In totam voluptatibus consectetur et odit provident corrupti, expedita nesciunt aperiam officia! Quis recusandae iusto earum ratione odio rerum, quo sed facere.</p>
+								<img src="img/Your-Pic-Here.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 rooms_descr">
+					<figure>
+						<a href="" class="open_popup"><img src="img/Your-Pic-Here.jpg" alt="alt"></a>
+						<figcaption>
+							<div class="img_head_descr">Standart Double Room</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum consequatur, eum, sapiente vero perferendis.</p>
+							<div class="included">
+								<i class="fa fa-subway"></i>
+								<i class="fa fa-bomb"></i>
+								<i class="fa fa-venus-mars"></i>
+								<i class="fa fa-bed"></i>
+								<i class="fa fa-coffee"></i>
+								<i class="fa fa-wifi"></i>
+							</div>
+						</figcaption>
+					</figure>
+					<div class="hidden">
+						<div class="modal-box-content">
+							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+							<div class="room">
+								<h3>Заголовок работы</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In totam voluptatibus consectetur et odit provident corrupti, expedita nesciunt aperiam officia! Quis recusandae iusto earum ratione odio rerum, quo sed facere.</p>
+								<img src="img/Your-Pic-Here.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 rooms_descr">
+					<figure >
+						<a href="" class="open_popup"><img src="img/Your-Pic-Here.jpg" alt="alt"></a>
+						<figcaption>
+							<div class="img_head_descr">Standart Double Room</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum consequatur, eum, sapiente vero perferendis.</p>
+							<div class="included">
+								<i class="fa fa-subway"></i>
+								<i class="fa fa-bomb"></i>
+								<i class="fa fa-venus-mars"></i>
+								<i class="fa fa-bed"></i>
+								<i class="fa fa-coffee"></i>
+								<i class="fa fa-wifi"></i>
+							</div>
+						</figcaption>
+					</figure>
+					<div class="hidden">
+						<div class="modal-box-content">
+							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+							<div class="room">
+								<h3>Заголовок работы</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In totam voluptatibus consectetur et odit provident corrupti, expedita nesciunt aperiam officia! Quis recusandae iusto earum ratione odio rerum, quo sed facere.</p>
+								<img src="img/Your-Pic-Here.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="text_area" class="text_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="descr">143 City  Located Hotels World Wide</div>
+					<div class="citation"><q><em>Hospitality, Quality &amp; Good Locations. We only provide you with the best hotels</em></q> - John Doe</div>
+					<img src="img/Man.png" alt="alt">
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="f_item">
+						<div class="f_item_h">about this hotel</div>
+						<p>Suspendisse erat mi, tincidunt sit amet massa quis, commodo fermentum diam. Sed nec dui nec nunc tempor interdum. </p>
+						<p> Ut vulputate augue urna, ut porta dolor imperdiet a. Vestibulum nec leo eu magna aliquam ornare.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="f_item">
+						<div class="f_item_h">Last news</div>
+						<ul>
+							<li><a href="#">Grand Hotel joins DeluxeHotels<span>15aug</span></a></li>
+							<li><a href="#">Happy Christmas To Everyone<span>15aug</span></a></li>
+							<li><a href="#">Best Places To Visit 2014<span>15aug</span></a></li>
+							<li><a href="#">Various Offers<span>15aug</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="f_item">
+						<div class="f_item_h">JOIN DELUXEHOTELS</div>
+						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vestibulum blandit egestas. Nam id lectus vel orci luctus consectetur eget id elit. In tortor odio, pellentesque eu arcu sit amet, lacinia euismod nisi. Aliquam sodales tristique mauris ac fermentum. Donec vel varius ipsum. Pellentesque vitae mollis massa. </p>
+						<p>There is no costs or whatsoever so sign up today!</p>
+						<button>read more</button>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="f_item">
+						<div class="f_item_h">MEMBERS AREA</div>
+						<form action="#">
+							<label for="name">Username</label>
+							<input type="text" name="name" id="name" placeholder="Enter your name">
+							<label for="password">Password</label>
+							<input type="password" name="password" id="password" placeholder="Enter your password">
+							<input type="submit" value="login">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>		
+	<div class="hidden"></div>
+	<!--[if lt IE 9]>
+	<script src="lib/html5shiv/es5-shim.min.js"></script>
+	<script src="lib/html5shiv/html5shiv.min.js"></script>
+	<script src="lib/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="lib/respond.min.js"></script>
+	<![endif]-->
+	<script src="lib/jquery/jquery-2.1.3.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="lib/datatimepicker/jquery.datetimepicker.js"></script>
+	<script src="lib/slick-master/slick-master/slick/slick.min.js"></script>
+	<script src="lib/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

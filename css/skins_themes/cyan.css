@@ -1,0 +1,8 @@
+.main_nav li:hover {
+  background-color: #1e2329;
+  border-top-color: #ffd700; }
+.main_nav .active {
+  background-color: #1e2329;
+  border-top-color: #ffd700; }
+
+/*# sourceMappingURL=cyan.css.map */
